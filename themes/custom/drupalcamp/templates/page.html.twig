@@ -1,0 +1,50 @@
+{% if page.header %}
+<header>
+  {{ page.header }}
+</header>
+{% endif %}
+
+
+{% if page.venue %}
+  <section class="venue-wrap">
+    <div class="container">
+      <div class="row">
+        {{ page.venue }}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% if page.banner %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 no-padding">
+      {{ page.banner }}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if page.content %}
+  {{ page.content }}
+{% endif %}
+
+{% if page.address %}
+<section class="venue-wrap">
+  <div class="container">
+    <div class="row">
+      {{ page.address }}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.footer %}
+  <footer>
+    <div class="container">
+      <div class="row">
+        {{ page.footer }}
+      </div>
+    </div>
+  </footer>
+{% endif %}

@@ -1,0 +1,268 @@
+@import 'bootstrap';
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.field--name-field-banner-image{
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+h2{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #006dd5;
+  text-transform: uppercase;
+}
+
+.no-padding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.martb40{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mart40{
+  margin-top: 40px;
+}
+
+.mart80{
+  margin-top: 80px;
+}
+
+.marb40{
+  margin-bottom: 40px;
+}
+
+header{
+  border-bottom: 1px solid grey;
+  min-height: 110px;
+}
+
+.logo{
+  position: absolute;
+  width: 210px;
+  margin: 0 auto;
+  top: 38px;
+  left: -25px;
+  right: 0px;
+  text-align: center;
+  z-index: 2;
+}
+
+.main-nav{
+  margin: 0px;
+  padding: 0px;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  li{
+    margin-right: 40px;
+    &:nth-child(3){
+      padding-right: 220px;
+      margin-right: 0px;
+    }
+    &:nth-child(4){
+      margin-left: 80px;
+    }
+    a{
+      font-size:18px;
+      padding: 40px 0;
+      line-height: 110px;
+      color: #717580  !important;
+      text-transform: uppercase;
+      &:hover{
+        text-decoration: none;
+        color: #ff5252 !important;
+      }
+
+      &.is-active{
+        border-bottom: 4px solid #ff5252;
+        color: #fd1f58 !important;
+      }
+
+    }
+  }
+}
+
+
+.speaker-wrap{
+  background: #f7f9fb;
+  h3{
+    color: #006dd5;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 40px 0;
+  }
+  h5{
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+}
+
+.event-image{
+  border-radius: 5px 5px 0 0;
+}
+
+.event-title{
+  color: #006dd5;
+  margin: 20px 0;
+}
+
+.event-carousel{
+  background: #8fc7fb;
+  padding: 40px 0;
+  margin: 40px 0;
+
+  .slick-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    .slide__grid {
+      padding-bottom: 0px;
+      .grid__content {
+        text-align: center;
+        background: #fff;
+        border-radius: 5px;
+
+        h4{
+          color: #006dd5;
+        }
+      }
+    }
+  }
+}
+
+.list-sponsers{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  li{
+    list-style-type: none;
+    text-align: center;
+    width: 31%;
+    margin-bottom: 40px;
+  }
+}
+
+.btn-red{
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #fd1f58;
+  padding: 15px 50px;
+  margin: 20px 0;
+  a{
+    color: #FFF;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+.venue-wrap{
+  background: #f7f9fb;
+  padding: 40px 0;
+
+  .btn-white{
+    a{
+      display: inline-block;
+      padding: 20px 50px;
+      text-decoration: none;
+      border-radius: 5px;
+      background-color: #fff;
+      margin-top: 20px;
+      color: #92969e;
+      -webkit-box-shadow: 1px 2px 1px #92969e;
+      box-shadow: 1px 2px 1px #92969e;
+    }
+  }
+}
+
+
+.field--name-field-address-map{
+  iframe{
+    margin-top: 20px;
+  }
+}
+
+footer{
+  background: #1c1c1c;
+
+  .footer-logo{
+    float: left;
+    img{
+      margin-top: -20px;
+    }
+  }
+  .field--name-field-footer-text{
+    float: left;
+    color: #FFF;
+    margin: 18px 20px;
+  }
+  .footer-social{
+    ul{
+      margin: 16px 0 0 0;
+      padding: 0px;
+      float: right;
+      li{
+        float: left;
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 10px;
+        color: #FFF;
+        &:last-child{
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+.instructions-wrap{
+  background: #f5f9fe;
+  padding: 40px 0;
+  margin: 40px 0;
+
+  h4{
+    text-align: center;
+    font-size: 18px;
+    color: #006dd5;
+    font-weight: 400;
+  }
+
+  p{
+    background: #FFF;
+    padding: 30px;
+  }
+}
+
+.being-sponsor{
+  margin-bottom: 40px;
+
+  h4{
+    border-bottom: solid 1px #000;
+    padding-bottom: 15px;
+  }
+}
+
+.panel-title{
+  text-align: center;
+  text-transform: uppercase;
+  color:#006dd5;
+  margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+{%
+  set classes = [
+  'block',
+  'block-' ~ configuration.provider|clean_class,
+  'block-' ~ plugin_id|clean_class,
+]
+%}
+<div{{ attributes.addClass(classes) }}>
+  <div class="row">
+    <div class="col-sm-12">
+      {% if label %}
+        <h2{{ title_attributes }}>{{ label }}</h2>
+      {% endif %}
+    </div>
+
+      <div class="col-sm-4">
+        <h4>{{ content.field_three_column_left_title }}</h4>
+        <p>{{ content.field_three_column_left }}</p>
+      </div>
+      <div class="col-sm-4">
+        <h4>{{ content.field_three_column_mid_title }}</h4>
+        <p>{{ content.field_three_column_mid }}</p>
+      </div>
+      <div class="col-sm-4">
+        <h4>{{ content.field_three_column_right_title }}</h4>
+        <p>{{ content.field_three_column_right }}</p>
+      </div>
+  </div>
+</div>
+

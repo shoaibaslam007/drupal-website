@@ -1,0 +1,25 @@
+{
+  "name": "drupal-theming",
+  "version": "1.0.0",
+  "description": "CONTENTS OF THIS FILE ---------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-eslint": "^4.0.2",
+    "gulp-if": "^2.0.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "dependencies": {
+    "susy": "^3.0.5"
+  }
+}
